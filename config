@@ -1,0 +1,33 @@
+#path /remote/ceph/user/f/fabiankl/myparams_220317
+#path /home/iwsatlas1/fabiankl/pythiatune/myparams_moreanalyses
+#path /home/iwsatlas1/fabiankl/pythiatune/myparamsNLO3
+path /remote/ceph/user/f/fabiankl/myparams_nadine_650_original
+varsfile params.dat
+numruns 650
+varnames alund blund aextradiquark sigma alphasvalue ptmin
+
+thresholdfit 1e-10
+thresholddata 1e-10
+thresholderr 1e-10
+kappa 1e-10
+exponent 1
+
+ddist 0.05
+chi2mean 100
+dsmoothmean 100
+smoothness 0.9
+chi2limit 10000
+
+summary 1
+outdot 0
+rescale 1
+covmat 0
+
+runcombs 0
+leaveout 0
+rngseed 0
+
+load 0
+filename interpolation
+
+outpath result_650/
